@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.856);
+    transition: background-color 1s ease;
+}
+
+body.active {
+    background-color: #ffffff1a;
+    transition: background-color 1s ease;
+}
+
+#calculator {
+    justify-content: center;
+    width: 50%;
+    transition: background-color 1s ease;
+}
+
+#calculator #Header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    transition: background-color 5s ease;
+}
+
+#calculator #Header.active {
+    color: black;
+    transition: background-color 5s ease;
+}
+
+#calculator #modes {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#calculator #modes i {
+    font-size: 30px;
+}
+
+#calculator #modes #sun {
+    color: #ffffff9d;
+    transition: background-color 3s 3s ;
+}
+
+#calculator #modes #moon {
+    color: #fff;
+    transition: background-color 60s ease;
+}
+
+#calculator #modes #sun.active {
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.725);
+    transition: background-color 3s 3s ease;
+}
+
+#calculator #modes #moon.active {
+    color: rgba(0, 0, 0, 0.194);
+    transition: background-color 3s 3s ease;
+}
+
+#calc-body {
+    background-color: rgb(62, 62, 62);
+    border-radius: 20px;
+    width: 100%;
+    transition: background-color 1s ease;
+}
+
+#calc-body.active {
+    transition: background-color 1s ease;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+
+#screen-area {
+    background: black;
+    height: 20vh;
+    border: 10px solid  rgb(62, 62, 62);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.006);
+    transition: background-color 1s ease;
+    transition: border 1s ease;
+}
+
+
+
+#screen-area i {
+    color: #fff;
+}
+
+#screen-area.active i {
+    color: black;
+}
+
+#screen-area h2 {
+    color: #fff;
+}
+
+
+#screen-area h1 {
+    color: #fff;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: end;
+}
+
+#screen-area.active h1 {
+    color: black;
+    padding-top: 10px;
+    padding-left: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;  
+}
+
+#screen-area.active {
+    transition: background-color 1s ease;
+    background: #fff;
+    border: 10px solid  rgb(235, 235, 235);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(255, 254, 254, 0.849);
+}
+
+#screen-area.active h2 {
+    color: black;
+}
+
+#first-row {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#second-row {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+#third-row {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+#fourth-row {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+#fifth-row {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+.btn {
+    
+    width: 40%;
+    height: 40px;
+    color: #fff;
+    border: 4px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(12, 11, 11, 0.24);
+    transition: background-color 3s ease;
+
+
+}
+
+.btn.active {
+    color: rgba(47, 47, 47, 0.903);
+    transition: background-color 3s ease;
+}
+
+#first-row a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+}
+
+#second-row a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#third-row a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fourth-row a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fifth-row a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
